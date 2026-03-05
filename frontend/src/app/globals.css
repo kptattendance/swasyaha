@@ -1,0 +1,64 @@
+@import "tailwindcss";
+:root {
+
+  --primary: #2563eb;      /* Main Blue */
+  --primary-dark: #1e40af;
+
+  --secondary: #0f172a;    /* Dark Navy */
+
+  --accent: #38bdf8;       /* Sky Blue */
+
+  --background: #f8fafc;
+
+  --text-main: #1e293b;
+  --text-light: #64748b;
+
+}
+
+/* ---------- GLOBAL STYLING ---------- */
+
+body{
+  background: var(--background);
+  color: var(--text-main);
+  font-family: system-ui, sans-serif;
+}
+
+/* ---------- REUSABLE BUTTONS ---------- */
+
+.btn-primary{
+  background: var(--primary);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover{
+  background: var(--primary-dark);
+}
+
+.btn-outline{
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-outline:hover{
+  background: var(--primary);
+  color: white;
+}
+
+.container-custom{
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dark {
+  --background: #020617;
+  --text-main: #f1f5f9;
+  --text-light: #cbd5f5;
+}
