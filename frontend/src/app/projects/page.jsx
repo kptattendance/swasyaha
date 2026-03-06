@@ -70,6 +70,25 @@ export default function ProjectsPage() {
       link: "https://adamyasamskruthi.org",
       category: "NGO Website",
     },
+    {
+      title: "Civil Construction Company",
+      description:
+        "Developed a responsive website for a civil construction company in T. Narasipura, Mysore to showcase services, projects and company information.",
+      image: "/projects/8.png",
+      tech: ["Next.js", "Responsive Design", "Modern UI"],
+      link: "https://spaceconsulting.vercel.app",
+      category: "Construction Company",
+    },
+
+    {
+      title: "Diploma Lab Manuals Platform",
+      description:
+        "Built an educational platform providing lab manuals and study resources for Karnataka Diploma 4th semester students.",
+      image: "/projects/9.png",
+      tech: ["Next.js", "Educational Platform", "Responsive UI"],
+      link: "https://dsp-lab.netlify.app",
+      category: "Education Platform",
+    },
   ];
   return (
     <section className="py-16 bg-[var(--background)]">
