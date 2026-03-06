@@ -43,7 +43,7 @@ export default function ProjectsPage() {
     },
 
     {
-      title: "KPT Society",
+      title: "Co-operative Society",
       description:
         "Developed an educational organization co-operative website to highlight institutional memebrs financial activities, its maintainance and community initiatives through an accessible digital platform.",
       image: "/projects/4.png",
@@ -52,6 +52,15 @@ export default function ProjectsPage() {
       category: "Educational Organization",
     },
 
+    {
+      title: "Job Fair",
+      description:
+        "Developed a website for an educational organization to highlight job fair activities, participating institutions, and community initiatives through a responsive and user-friendly digital platform.",
+      image: "/projects/4.png",
+      tech: ["Next.js", "Responsive UI", "Modern Web Design"],
+      link: "https://kptjobfair.vercel.app/",
+      category: "Educational Organization",
+    },
     {
       title: "Adamyasamskruthi NGO",
       description:
