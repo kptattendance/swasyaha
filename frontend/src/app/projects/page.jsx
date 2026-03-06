@@ -65,9 +65,9 @@ export default function ProjectsPage() {
       title: "Adamyasamskruthi NGO",
       description:
         "Created a digital platform for a non-profit organization to promote cultural programs, social initiatives and community engagement activities.",
-      image: "/projects/5.png",//
+      image: "/projects/5.png", //
       tech: ["Next.js", "Tailwind", "SEO Friendly"],
-      link: "https://adamyasamskruthi.vercel.app/",
+      link: "https://adamyasamskruthi.org",
       category: "NGO Website",
     },
   ];
